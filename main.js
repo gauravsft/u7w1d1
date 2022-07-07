@@ -21,5 +21,8 @@ function calculator(operation,a,b){
         console.log("Choose different operations")
     }
 }
-
+calculator("add",5,6);
+calculator("subtract",5,6);
+calculator("multiply",5,6);
 calculator("divide",5,6);
+calculator("default",5,6);
